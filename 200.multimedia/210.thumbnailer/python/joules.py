@@ -73,6 +73,7 @@ def run(bib):
     3. 1 / lambda_rate : La durée moyenne entre deux événements successifs dans ce processus de Poisson (la moyenne des temps inter-arrivées)
 
     """
+    
     lambda_rate = 10
     duree = 600  
     nbp = 2
