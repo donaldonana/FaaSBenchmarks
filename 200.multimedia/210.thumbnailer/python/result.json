@@ -1,0 +1,450 @@
+[
+    {
+        "library": "pillow",
+        "measure": {
+            "compute_time": 0.007714,
+            "download_size": 529761,
+            "download_time": 1.198669,
+            "upload_size": 1173,
+            "upload_time": 0.416448
+        },
+        "package_0": 4.176381,
+        "dram_0": 1.036985,
+        "core_0": 2.748589,
+        "uncore_0": 0.044311
+    },
+    {
+        "library": "pillow",
+        "measure": {
+            "compute_time": 0.007703,
+            "download_size": 529761,
+            "download_time": 1.576096,
+            "upload_size": 1173,
+            "upload_time": 0.24709
+        },
+        "package_0": 4.779285,
+        "dram_0": 1.198422,
+        "core_0": 3.195976,
+        "uncore_0": 0.0719
+    },
+    {
+        "library": "pillow",
+        "measure": {
+            "compute_time": 0.007843,
+            "download_size": 529761,
+            "download_time": 1.100348,
+            "upload_size": 1173,
+            "upload_time": 0.304097
+        },
+        "package_0": 3.968007,
+        "dram_0": 0.943479,
+        "core_0": 2.708368,
+        "uncore_0": 0.046752
+    },
+    {
+        "library": "pillow",
+        "measure": {
+            "compute_time": 0.007749,
+            "download_size": 529761,
+            "download_time": 0.918247,
+            "upload_size": 1173,
+            "upload_time": 0.250537
+        },
+        "package_0": 3.348747,
+        "dram_0": 0.791685,
+        "core_0": 2.311273,
+        "uncore_0": 0.045594
+    },
+    {
+        "library": "pillow",
+        "measure": {
+            "compute_time": 0.007674,
+            "download_size": 529761,
+            "download_time": 1.035985,
+            "upload_size": 1173,
+            "upload_time": 0.3998
+        },
+        "package_0": 4.223011,
+        "dram_0": 1.040708,
+        "core_0": 2.853997,
+        "uncore_0": 0.099426
+    },
+    {
+        "library": "pillow",
+        "measure": {
+            "compute_time": 0.007733,
+            "download_size": 529761,
+            "download_time": 0.977675,
+            "upload_size": 1173,
+            "upload_time": 0.416509
+        },
+        "package_0": 4.418385,
+        "dram_0": 1.029905,
+        "core_0": 2.995964,
+        "uncore_0": 0.08374
+    },
+    {
+        "library": "pillow",
+        "measure": {
+            "compute_time": 0.007925,
+            "download_size": 529761,
+            "download_time": 0.912298,
+            "upload_size": 1173,
+            "upload_time": 0.286412
+        },
+        "package_0": 3.343558,
+        "dram_0": 0.808225,
+        "core_0": 2.256403,
+        "uncore_0": 0.045654
+    },
+    {
+        "library": "pillow",
+        "measure": {
+            "compute_time": 0.007823,
+            "download_size": 529761,
+            "download_time": 0.886218,
+            "upload_size": 1173,
+            "upload_time": 0.404655
+        },
+        "package_0": 3.787343,
+        "dram_0": 0.918638,
+        "core_0": 2.567255,
+        "uncore_0": 0.065918
+    },
+    {
+        "library": "wand",
+        "measure": {
+            "compute_time": 0.041152,
+            "download_size": 529761,
+            "download_time": 0.993774,
+            "upload_size": 27595,
+            "upload_time": 0.413274
+        },
+        "package_0": 3.884206,
+        "dram_0": 0.94177,
+        "core_0": 2.679192,
+        "uncore_0": 0.044128
+    },
+    {
+        "library": "wand",
+        "measure": {
+            "compute_time": 0.042017,
+            "download_size": 529761,
+            "download_time": 1.138441,
+            "upload_size": 27595,
+            "upload_time": 0.38406
+        },
+        "package_0": 5.372605,
+        "dram_0": 1.064206,
+        "core_0": 4.012136,
+        "uncore_0": 0.053223
+    },
+    {
+        "library": "wand",
+        "measure": {
+            "compute_time": 0.041416,
+            "download_size": 529761,
+            "download_time": 1.043474,
+            "upload_size": 27595,
+            "upload_time": 0.444898
+        },
+        "package_0": 4.351063,
+        "dram_0": 1.05267,
+        "core_0": 2.965569,
+        "uncore_0": 0.078735
+    },
+    {
+        "library": "wand",
+        "measure": {
+            "compute_time": 0.041047,
+            "download_size": 529761,
+            "download_time": 0.871626,
+            "upload_size": 27595,
+            "upload_time": 0.38749
+        },
+        "package_0": 4.141896,
+        "dram_0": 0.881041,
+        "core_0": 2.955253,
+        "uncore_0": 0.044494
+    },
+    {
+        "library": "wand",
+        "measure": {
+            "compute_time": 0.041529,
+            "download_size": 529761,
+            "download_time": 1.075724,
+            "upload_size": 27595,
+            "upload_time": 0.342948
+        },
+        "package_0": 4.240468,
+        "dram_0": 1.023252,
+        "core_0": 2.952568,
+        "uncore_0": 0.080322
+    },
+    {
+        "library": "wand",
+        "measure": {
+            "compute_time": 0.041452,
+            "download_size": 529761,
+            "download_time": 0.945091,
+            "upload_size": 27595,
+            "upload_time": 0.362854
+        },
+        "package_0": 4.39391,
+        "dram_0": 0.92877,
+        "core_0": 3.007133,
+        "uncore_0": 0.062683
+    },
+    {
+        "library": "wand",
+        "measure": {
+            "compute_time": 0.04129,
+            "download_size": 529761,
+            "download_time": 1.861911,
+            "upload_size": 27595,
+            "upload_time": 0.343602
+        },
+        "package_0": 5.577867,
+        "dram_0": 1.45013,
+        "core_0": 3.640676,
+        "uncore_0": 0.075439
+    },
+    {
+        "library": "wand",
+        "measure": {
+            "compute_time": 0.042009,
+            "download_size": 529761,
+            "download_time": 0.957585,
+            "upload_size": 27595,
+            "upload_time": 0.372826
+        },
+        "package_0": 4.315358,
+        "dram_0": 1.018919,
+        "core_0": 3.043816,
+        "uncore_0": 0.070069
+    },
+    {
+        "library": "pygame",
+        "measure": {
+            "compute_time": 0.135897,
+            "download_size": 529761,
+            "download_time": 1.066586,
+            "upload_size": 2027,
+            "upload_time": 0.331254
+        },
+        "package_0": 4.229969,
+        "dram_0": 1.068051,
+        "core_0": 2.874504,
+        "uncore_0": 0.080749
+    },
+    {
+        "library": "pygame",
+        "measure": {
+            "compute_time": 0.121626,
+            "download_size": 529761,
+            "download_time": 2.036029,
+            "upload_size": 2027,
+            "upload_time": 0.504004
+        },
+        "package_0": 6.753523,
+        "dram_0": 1.733333,
+        "core_0": 4.456593,
+        "uncore_0": 0.090332
+    },
+    {
+        "library": "pygame",
+        "measure": {
+            "compute_time": 0.121681,
+            "download_size": 529761,
+            "download_time": 1.211842,
+            "upload_size": 2027,
+            "upload_time": 0.223069
+        },
+        "package_0": 4.362965,
+        "dram_0": 1.105222,
+        "core_0": 2.888543,
+        "uncore_0": 0.095337
+    },
+    {
+        "library": "pygame",
+        "measure": {
+            "compute_time": 0.122569,
+            "download_size": 529761,
+            "download_time": 0.897975,
+            "upload_size": 2027,
+            "upload_time": 0.332514
+        },
+        "package_0": 3.687734,
+        "dram_0": 0.894529,
+        "core_0": 2.527581,
+        "uncore_0": 0.049926
+    },
+    {
+        "library": "pygame",
+        "measure": {
+            "compute_time": 0.121547,
+            "download_size": 529761,
+            "download_time": 0.884718,
+            "upload_size": 2027,
+            "upload_time": 0.307226
+        },
+        "package_0": 5.033312,
+        "dram_0": 0.898191,
+        "core_0": 3.799978,
+        "uncore_0": 0.058228
+    },
+    {
+        "library": "pygame",
+        "measure": {
+            "compute_time": 0.12207,
+            "download_size": 529761,
+            "download_time": 1.00072,
+            "upload_size": 2027,
+            "upload_time": 0.290988
+        },
+        "package_0": 4.229725,
+        "dram_0": 0.98309,
+        "core_0": 2.910942,
+        "uncore_0": 0.066467
+    },
+    {
+        "library": "pygame",
+        "measure": {
+            "compute_time": 0.12143,
+            "download_size": 529761,
+            "download_time": 1.200417,
+            "upload_size": 2027,
+            "upload_time": 0.231542
+        },
+        "package_0": 4.15862,
+        "dram_0": 1.016537,
+        "core_0": 2.827446,
+        "uncore_0": 0.057006
+    },
+    {
+        "library": "pygame",
+        "measure": {
+            "compute_time": 0.121744,
+            "download_size": 529761,
+            "download_time": 0.987101,
+            "upload_size": 2027,
+            "upload_time": 0.274354
+        },
+        "package_0": 4.010488,
+        "dram_0": 0.934751,
+        "core_0": 2.72863,
+        "uncore_0": 0.059632
+    },
+    {
+        "library": "opencv",
+        "measure": {
+            "compute_time": 0.010805,
+            "download_size": 529761,
+            "download_time": 1.109045,
+            "upload_size": 2826,
+            "upload_time": 0.229433
+        },
+        "package_0": 3.627127,
+        "dram_0": 0.903013,
+        "core_0": 2.565545,
+        "uncore_0": 0.040222
+    },
+    {
+        "library": "opencv",
+        "measure": {
+            "compute_time": 0.011018,
+            "download_size": 529761,
+            "download_time": 1.047741,
+            "upload_size": 2826,
+            "upload_time": 0.324242
+        },
+        "package_0": 3.591604,
+        "dram_0": 0.920652,
+        "core_0": 2.506341,
+        "uncore_0": 0.042114
+    },
+    {
+        "library": "opencv",
+        "measure": {
+            "compute_time": 0.010923,
+            "download_size": 529761,
+            "download_time": 0.879444,
+            "upload_size": 2826,
+            "upload_time": 0.305124
+        },
+        "package_0": 3.28582,
+        "dram_0": 0.816221,
+        "core_0": 2.275751,
+        "uncore_0": 0.040954
+    },
+    {
+        "library": "opencv",
+        "measure": {
+            "compute_time": 0.010749,
+            "download_size": 529761,
+            "download_time": 0.960793,
+            "upload_size": 2826,
+            "upload_time": 0.23752
+        },
+        "package_0": 3.222953,
+        "dram_0": 0.772215,
+        "core_0": 2.23205,
+        "uncore_0": 0.022644
+    },
+    {
+        "library": "opencv",
+        "measure": {
+            "compute_time": 0.010946,
+            "download_size": 529761,
+            "download_time": 0.899193,
+            "upload_size": 2826,
+            "upload_time": 0.291685
+        },
+        "package_0": 3.20623,
+        "dram_0": 0.774901,
+        "core_0": 2.247431,
+        "uncore_0": 0.021485
+    },
+    {
+        "library": "opencv",
+        "measure": {
+            "compute_time": 0.010875,
+            "download_size": 529761,
+            "download_time": 0.896216,
+            "upload_size": 2826,
+            "upload_time": 0.31978
+        },
+        "package_0": 3.279471,
+        "dram_0": 0.784056,
+        "core_0": 2.340632,
+        "uncore_0": 0.021423
+    },
+    {
+        "library": "opencv",
+        "measure": {
+            "compute_time": 0.010929,
+            "download_size": 529761,
+            "download_time": 0.858688,
+            "upload_size": 2826,
+            "upload_time": 0.310739
+        },
+        "package_0": 3.216728,
+        "dram_0": 0.762816,
+        "core_0": 2.255548,
+        "uncore_0": 0.020752
+    },
+    {
+        "library": "opencv",
+        "measure": {
+            "compute_time": 0.010855,
+            "download_size": 529761,
+            "download_time": 1.072145,
+            "upload_size": 2826,
+            "upload_time": 0.232515
+        },
+        "package_0": 3.487968,
+        "dram_0": 0.838071,
+        "core_0": 2.429437,
+        "uncore_0": 0.020508
+    }
+]
