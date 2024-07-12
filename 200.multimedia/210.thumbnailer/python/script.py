@@ -48,11 +48,13 @@ def run(bib):
     while i < 10:
 
         meter.start(tag=bib)
-        result = subprocess.run(['wsk', 'action', 'invoke', 'thumb', '--param', 'bib', bib, '--result'], capture_output=True, text=True) #invoke the action
+        result = subprocess.run(['wsk', 'action', 'invoke', 'thumb', '--result',
+        '--param', 'bib', bib, 
+        '--param', 'access', os.getenv('AWS_SECRET_ACCESS_KEY'),
+        '--param', 'key', os.getenv('AWS_ACCESS_KEY_ID')] 
+        ,capture_output=True, text=True) #invoke the action
         meter.stop()
-
-        measurement = meter.get_trace()[0]
-
+         
         json_dict = {
             "library" : bib,
             "measure": json.loads(result.stdout),  # Parse the measure part as JSON

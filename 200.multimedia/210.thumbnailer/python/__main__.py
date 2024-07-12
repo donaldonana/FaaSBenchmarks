@@ -83,8 +83,8 @@ def resize(args):
   
     # Connexion to Remote Storage
     bucket_name = 'onanadbucket'
-    aws_access_key_id = os.getenv('AWS_ACCESS_KEY_ID')
-    aws_secret_access_key = os.getenv('AWS_SECRET_ACCESS_KEY')
+    aws_access_key_id = args["key"]
+    aws_secret_access_key = args["access"]
     s3 = boto3.client('s3', aws_access_key_id=aws_access_key_id, aws_secret_access_key=aws_secret_access_key)
         
     # Image Downloading
@@ -143,7 +143,9 @@ def main(args):
         "width" : width,
         "hight" : hight,
         "file"  : file,
-        "bib"   : bib
+        "bib"   : bib,
+        "key" : args["key"],
+        "access": args["access"]
     })
 
     return (resultat)
