@@ -2,6 +2,7 @@ import os
 import time
 import json
 import numpy as np
+import requests
 import subprocess
 from multiprocessing import Process
 from pyJoules.device import DeviceFactory
@@ -14,7 +15,6 @@ domains = [
     RaplUncoreDomain(0),
     RaplCoreDomain(0)
 ]
-
 devices = DeviceFactory.create_devices(domains)
 meter = EnergyMeter(devices)
 
@@ -41,44 +41,47 @@ def append_to_log_file(json_dict, filename='result.json'):
         json.dump(data, file, indent=4)
 
 
-def run(bib):
-     
+def run(url, headers, data):
+
     i = 0
-    
     while i < 10:
 
-        meter.start(tag=bib)
-        result = subprocess.run(['wsk', 'action', 'invoke', 'thumb', '--result',
-        '--param', 'bib', bib, 
-        '--param', 'access', os.getenv('AWS_SECRET_ACCESS_KEY'),
-        '--param', 'key', os.getenv('AWS_ACCESS_KEY_ID')] 
-        ,capture_output=True, text=True) #invoke the action
+        meter.start()
+        response = requests.post(url, headers=headers, json=data)
         meter.stop()
-         
+
+        emeasure = meter.get_trace()[0]
         json_dict = {
-            "library" : bib,
-            "measure": json.loads(result.stdout),  # Parse the measure part as JSON
-            "package_0": measurement.energy["package_0"] / 1e6,
-            "dram_0": measurement.energy["dram_0"] / 1e6,
-            "core_0": measurement.energy["core_0"] / 1e6,
-            "uncore_0": measurement.energy["uncore_0"] / 1e6,
+            "library" :  data.get("bib"),
+            "package_0": emeasure.energy["package_0"] / 1e6,
+            "dram_0":    emeasure.energy["dram_0"] / 1e6,
+            "core_0":    emeasure.energy["core_0"] / 1e6,
+            "uncore_0":  emeasure.energy["uncore_0"] / 1e6,
+            "measure":   response.json()["body"],  # Parse the measure part as JSON
         }
-        # Append to log file for analyse
         if i >= 2: 
             append_to_log_file(json_dict)
-
+            
         i = i + 1
         
- 
+
+
 
 if __name__ == "__main__":
 
-    bibs = ["pillow", "wand", "pygame", "opencv"]
+    url = "http://172.17.0.1:3233/api/v1/web/guest/default/thumb.json"
+    headers = {'Content-Type': 'application/json'}
     
-    # For each library run an experiment
+    bibs = ["pillow", "wand", "pygame", "opencv"]
+
     for i, bib in enumerate(bibs):
-        
+
+        data = {
+            'bib': bib, 
+            'access' :  os.getenv('AWS_SECRET_ACCESS_KEY'), 
+            'key' : os.getenv('AWS_ACCESS_KEY_ID')
+        }
+
         print(f"{i+1}...")
 
-        run(bib)
-  
+        run(url, headers, data)

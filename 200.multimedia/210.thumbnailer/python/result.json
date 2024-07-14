@@ -1,450 +1,450 @@
 [
     {
         "library": "pillow",
+        "package_0": 4.224721,
+        "dram_0": 1.083066,
+        "core_0": 3.005302,
+        "uncore_0": 0.009827,
         "measure": {
-            "compute_time": 0.007714,
+            "compute_time": 0.007721,
             "download_size": 529761,
-            "download_time": 1.198669,
+            "download_time": 1.340195,
             "upload_size": 1173,
-            "upload_time": 0.416448
-        },
-        "package_0": 4.176381,
-        "dram_0": 1.036985,
-        "core_0": 2.748589,
-        "uncore_0": 0.044311
+            "upload_time": 0.353154
+        }
     },
     {
         "library": "pillow",
+        "package_0": 3.232963,
+        "dram_0": 0.779783,
+        "core_0": 2.247919,
+        "uncore_0": 0.009765,
         "measure": {
-            "compute_time": 0.007703,
+            "compute_time": 0.00777,
             "download_size": 529761,
-            "download_time": 1.576096,
+            "download_time": 0.864497,
             "upload_size": 1173,
-            "upload_time": 0.24709
-        },
-        "package_0": 4.779285,
-        "dram_0": 1.198422,
-        "core_0": 3.195976,
-        "uncore_0": 0.0719
+            "upload_time": 0.334367
+        }
     },
     {
         "library": "pillow",
+        "package_0": 2.967522,
+        "dram_0": 0.700926,
+        "core_0": 2.06048,
+        "uncore_0": 0.009461,
         "measure": {
-            "compute_time": 0.007843,
+            "compute_time": 0.007941,
             "download_size": 529761,
-            "download_time": 1.100348,
+            "download_time": 0.841242,
             "upload_size": 1173,
-            "upload_time": 0.304097
-        },
-        "package_0": 3.968007,
-        "dram_0": 0.943479,
-        "core_0": 2.708368,
-        "uncore_0": 0.046752
+            "upload_time": 0.238374
+        }
     },
     {
         "library": "pillow",
+        "package_0": 2.933281,
+        "dram_0": 0.708555,
+        "core_0": 2.071833,
+        "uncore_0": 0.008789,
         "measure": {
-            "compute_time": 0.007749,
+            "compute_time": 0.007766,
             "download_size": 529761,
-            "download_time": 0.918247,
+            "download_time": 0.850642,
             "upload_size": 1173,
-            "upload_time": 0.250537
-        },
-        "package_0": 3.348747,
-        "dram_0": 0.791685,
-        "core_0": 2.311273,
-        "uncore_0": 0.045594
+            "upload_time": 0.225722
+        }
     },
     {
         "library": "pillow",
+        "package_0": 3.071464,
+        "dram_0": 0.775694,
+        "core_0": 2.158808,
+        "uncore_0": 0.009704,
         "measure": {
-            "compute_time": 0.007674,
+            "compute_time": 0.008233,
             "download_size": 529761,
-            "download_time": 1.035985,
+            "download_time": 0.842552,
             "upload_size": 1173,
-            "upload_time": 0.3998
-        },
-        "package_0": 4.223011,
-        "dram_0": 1.040708,
-        "core_0": 2.853997,
-        "uncore_0": 0.099426
+            "upload_time": 0.358754
+        }
     },
     {
         "library": "pillow",
+        "package_0": 3.086174,
+        "dram_0": 0.714231,
+        "core_0": 2.183283,
+        "uncore_0": 0.009339,
         "measure": {
-            "compute_time": 0.007733,
+            "compute_time": 0.007818,
             "download_size": 529761,
-            "download_time": 0.977675,
+            "download_time": 0.842839,
             "upload_size": 1173,
-            "upload_time": 0.416509
-        },
-        "package_0": 4.418385,
-        "dram_0": 1.029905,
-        "core_0": 2.995964,
-        "uncore_0": 0.08374
+            "upload_time": 0.234951
+        }
     },
     {
         "library": "pillow",
+        "package_0": 6.518721,
+        "dram_0": 1.76263,
+        "core_0": 4.392628,
+        "uncore_0": 0.021972,
         "measure": {
-            "compute_time": 0.007925,
+            "compute_time": 0.007956,
             "download_size": 529761,
-            "download_time": 0.912298,
+            "download_time": 2.508267,
             "upload_size": 1173,
-            "upload_time": 0.286412
-        },
-        "package_0": 3.343558,
-        "dram_0": 0.808225,
-        "core_0": 2.256403,
-        "uncore_0": 0.045654
+            "upload_time": 0.290623
+        }
     },
     {
         "library": "pillow",
+        "package_0": 3.363883,
+        "dram_0": 0.853575,
+        "core_0": 2.329828,
+        "uncore_0": 0.007935,
         "measure": {
-            "compute_time": 0.007823,
+            "compute_time": 0.00782,
             "download_size": 529761,
-            "download_time": 0.886218,
+            "download_time": 0.863767,
             "upload_size": 1173,
-            "upload_time": 0.404655
-        },
-        "package_0": 3.787343,
-        "dram_0": 0.918638,
-        "core_0": 2.567255,
-        "uncore_0": 0.065918
+            "upload_time": 0.460105
+        }
     },
     {
         "library": "wand",
+        "package_0": 3.694021,
+        "dram_0": 0.845945,
+        "core_0": 2.654168,
+        "uncore_0": 0.009217,
         "measure": {
-            "compute_time": 0.041152,
+            "compute_time": 0.045283,
             "download_size": 529761,
-            "download_time": 0.993774,
+            "download_time": 0.88408,
             "upload_size": 27595,
-            "upload_time": 0.413274
-        },
-        "package_0": 3.884206,
-        "dram_0": 0.94177,
-        "core_0": 2.679192,
-        "uncore_0": 0.044128
+            "upload_time": 0.392294
+        }
     },
     {
         "library": "wand",
+        "package_0": 3.728873,
+        "dram_0": 0.858152,
+        "core_0": 2.620721,
+        "uncore_0": 0.009765,
         "measure": {
-            "compute_time": 0.042017,
+            "compute_time": 0.045525,
             "download_size": 529761,
-            "download_time": 1.138441,
+            "download_time": 0.888581,
             "upload_size": 27595,
-            "upload_time": 0.38406
-        },
-        "package_0": 5.372605,
-        "dram_0": 1.064206,
-        "core_0": 4.012136,
-        "uncore_0": 0.053223
+            "upload_time": 0.403658
+        }
     },
     {
         "library": "wand",
+        "package_0": 3.671988,
+        "dram_0": 0.852537,
+        "core_0": 2.537224,
+        "uncore_0": 0.013123,
         "measure": {
-            "compute_time": 0.041416,
+            "compute_time": 0.043523,
             "download_size": 529761,
-            "download_time": 1.043474,
+            "download_time": 0.880093,
             "upload_size": 27595,
-            "upload_time": 0.444898
-        },
-        "package_0": 4.351063,
-        "dram_0": 1.05267,
-        "core_0": 2.965569,
-        "uncore_0": 0.078735
+            "upload_time": 0.392231
+        }
     },
     {
         "library": "wand",
+        "package_0": 9.139137,
+        "dram_0": 1.030698,
+        "core_0": 7.675823,
+        "uncore_0": 0.006714,
         "measure": {
-            "compute_time": 0.041047,
+            "compute_time": 0.04546,
             "download_size": 529761,
-            "download_time": 0.871626,
+            "download_time": 0.918043,
             "upload_size": 27595,
-            "upload_time": 0.38749
-        },
-        "package_0": 4.141896,
-        "dram_0": 0.881041,
-        "core_0": 2.955253,
-        "uncore_0": 0.044494
+            "upload_time": 0.379481
+        }
     },
     {
         "library": "wand",
+        "package_0": 4.125295,
+        "dram_0": 0.880063,
+        "core_0": 3.030022,
+        "uncore_0": 0.009338,
         "measure": {
-            "compute_time": 0.041529,
+            "compute_time": 0.041518,
             "download_size": 529761,
-            "download_time": 1.075724,
+            "download_time": 0.867493,
             "upload_size": 27595,
-            "upload_time": 0.342948
-        },
-        "package_0": 4.240468,
-        "dram_0": 1.023252,
-        "core_0": 2.952568,
-        "uncore_0": 0.080322
+            "upload_time": 0.446695
+        }
     },
     {
         "library": "wand",
+        "package_0": 3.613821,
+        "dram_0": 0.832884,
+        "core_0": 2.576532,
+        "uncore_0": 0.009643,
         "measure": {
-            "compute_time": 0.041452,
+            "compute_time": 0.041854,
             "download_size": 529761,
-            "download_time": 0.945091,
+            "download_time": 0.845344,
             "upload_size": 27595,
-            "upload_time": 0.362854
-        },
-        "package_0": 4.39391,
-        "dram_0": 0.92877,
-        "core_0": 3.007133,
-        "uncore_0": 0.062683
+            "upload_time": 0.420861
+        }
     },
     {
         "library": "wand",
+        "package_0": 3.966054,
+        "dram_0": 0.886716,
+        "core_0": 2.850701,
+        "uncore_0": 0.012818,
         "measure": {
-            "compute_time": 0.04129,
+            "compute_time": 0.041932,
             "download_size": 529761,
-            "download_time": 1.861911,
+            "download_time": 0.873028,
             "upload_size": 27595,
-            "upload_time": 0.343602
-        },
-        "package_0": 5.577867,
-        "dram_0": 1.45013,
-        "core_0": 3.640676,
-        "uncore_0": 0.075439
+            "upload_time": 0.423427
+        }
     },
     {
         "library": "wand",
+        "package_0": 3.78832,
+        "dram_0": 0.84802,
+        "core_0": 2.653191,
+        "uncore_0": 0.007202,
         "measure": {
-            "compute_time": 0.042009,
+            "compute_time": 0.041336,
             "download_size": 529761,
-            "download_time": 0.957585,
+            "download_time": 0.859881,
             "upload_size": 27595,
-            "upload_time": 0.372826
-        },
-        "package_0": 4.315358,
-        "dram_0": 1.018919,
-        "core_0": 3.043816,
-        "uncore_0": 0.070069
+            "upload_time": 0.412545
+        }
     },
     {
         "library": "pygame",
+        "package_0": 3.595023,
+        "dram_0": 0.857602,
+        "core_0": 2.508904,
+        "uncore_0": 0.00885,
         "measure": {
-            "compute_time": 0.135897,
+            "compute_time": 0.121589,
             "download_size": 529761,
-            "download_time": 1.066586,
+            "download_time": 0.844346,
             "upload_size": 2027,
-            "upload_time": 0.331254
-        },
-        "package_0": 4.229969,
-        "dram_0": 1.068051,
-        "core_0": 2.874504,
-        "uncore_0": 0.080749
+            "upload_time": 0.333708
+        }
     },
     {
         "library": "pygame",
+        "package_0": 3.332511,
+        "dram_0": 0.775633,
+        "core_0": 2.309442,
+        "uncore_0": 0.009827,
         "measure": {
-            "compute_time": 0.121626,
+            "compute_time": 0.12152,
             "download_size": 529761,
-            "download_time": 2.036029,
+            "download_time": 0.859392,
             "upload_size": 2027,
-            "upload_time": 0.504004
-        },
-        "package_0": 6.753523,
-        "dram_0": 1.733333,
-        "core_0": 4.456593,
-        "uncore_0": 0.090332
+            "upload_time": 0.228186
+        }
     },
     {
         "library": "pygame",
+        "package_0": 3.610159,
+        "dram_0": 0.876097,
+        "core_0": 2.505182,
+        "uncore_0": 0.012695,
         "measure": {
-            "compute_time": 0.121681,
+            "compute_time": 0.1216,
             "download_size": 529761,
-            "download_time": 1.211842,
+            "download_time": 0.87846,
             "upload_size": 2027,
-            "upload_time": 0.223069
-        },
-        "package_0": 4.362965,
-        "dram_0": 1.105222,
-        "core_0": 2.888543,
-        "uncore_0": 0.095337
+            "upload_time": 0.33364
+        }
     },
     {
         "library": "pygame",
+        "package_0": 3.636404,
+        "dram_0": 0.867918,
+        "core_0": 2.56878,
+        "uncore_0": 0.010254,
         "measure": {
-            "compute_time": 0.122569,
+            "compute_time": 0.135107,
             "download_size": 529761,
-            "download_time": 0.897975,
+            "download_time": 0.847638,
             "upload_size": 2027,
-            "upload_time": 0.332514
-        },
-        "package_0": 3.687734,
-        "dram_0": 0.894529,
-        "core_0": 2.527581,
-        "uncore_0": 0.049926
+            "upload_time": 0.321356
+        }
     },
     {
         "library": "pygame",
+        "package_0": 3.274344,
+        "dram_0": 0.780638,
+        "core_0": 2.263788,
+        "uncore_0": 0.008423,
         "measure": {
-            "compute_time": 0.121547,
+            "compute_time": 0.137328,
             "download_size": 529761,
-            "download_time": 0.884718,
+            "download_time": 0.858604,
             "upload_size": 2027,
-            "upload_time": 0.307226
-        },
-        "package_0": 5.033312,
-        "dram_0": 0.898191,
-        "core_0": 3.799978,
-        "uncore_0": 0.058228
+            "upload_time": 0.21183
+        }
     },
     {
         "library": "pygame",
+        "package_0": 3.874623,
+        "dram_0": 0.845824,
+        "core_0": 2.798333,
+        "uncore_0": 0.009277,
         "measure": {
-            "compute_time": 0.12207,
+            "compute_time": 0.138469,
             "download_size": 529761,
-            "download_time": 1.00072,
+            "download_time": 0.878409,
             "upload_size": 2027,
-            "upload_time": 0.290988
-        },
-        "package_0": 4.229725,
-        "dram_0": 0.98309,
-        "core_0": 2.910942,
-        "uncore_0": 0.066467
+            "upload_time": 0.316033
+        }
     },
     {
         "library": "pygame",
+        "package_0": 3.377128,
+        "dram_0": 0.782774,
+        "core_0": 2.321893,
+        "uncore_0": 0.007263,
         "measure": {
-            "compute_time": 0.12143,
+            "compute_time": 0.121266,
             "download_size": 529761,
-            "download_time": 1.200417,
+            "download_time": 0.896362,
             "upload_size": 2027,
-            "upload_time": 0.231542
-        },
-        "package_0": 4.15862,
-        "dram_0": 1.016537,
-        "core_0": 2.827446,
-        "uncore_0": 0.057006
+            "upload_time": 0.219039
+        }
     },
     {
         "library": "pygame",
+        "package_0": 3.470694,
+        "dram_0": 0.848874,
+        "core_0": 2.411004,
+        "uncore_0": 0.013977,
         "measure": {
-            "compute_time": 0.121744,
+            "compute_time": 0.136307,
             "download_size": 529761,
-            "download_time": 0.987101,
+            "download_time": 0.853859,
             "upload_size": 2027,
-            "upload_time": 0.274354
-        },
-        "package_0": 4.010488,
-        "dram_0": 0.934751,
-        "core_0": 2.72863,
-        "uncore_0": 0.059632
+            "upload_time": 0.315708
+        }
     },
     {
         "library": "opencv",
+        "package_0": 3.350272,
+        "dram_0": 0.84088,
+        "core_0": 2.284967,
+        "uncore_0": 0.007995,
         "measure": {
-            "compute_time": 0.010805,
+            "compute_time": 0.011022,
             "download_size": 529761,
-            "download_time": 1.109045,
+            "download_time": 1.021305,
             "upload_size": 2826,
-            "upload_time": 0.229433
-        },
-        "package_0": 3.627127,
-        "dram_0": 0.903013,
-        "core_0": 2.565545,
-        "uncore_0": 0.040222
+            "upload_time": 0.273563
+        }
     },
     {
         "library": "opencv",
+        "package_0": 4.448414,
+        "dram_0": 1.164792,
+        "core_0": 3.069145,
+        "uncore_0": 0.013184,
         "measure": {
-            "compute_time": 0.011018,
+            "compute_time": 0.01126,
             "download_size": 529761,
-            "download_time": 1.047741,
+            "download_time": 1.552387,
             "upload_size": 2826,
-            "upload_time": 0.324242
-        },
-        "package_0": 3.591604,
-        "dram_0": 0.920652,
-        "core_0": 2.506341,
-        "uncore_0": 0.042114
+            "upload_time": 0.26871
+        }
     },
     {
         "library": "opencv",
+        "package_0": 3.105583,
+        "dram_0": 0.762632,
+        "core_0": 2.17547,
+        "uncore_0": 0.004761,
         "measure": {
-            "compute_time": 0.010923,
+            "compute_time": 0.011216,
             "download_size": 529761,
-            "download_time": 0.879444,
+            "download_time": 0.854286,
             "upload_size": 2826,
-            "upload_time": 0.305124
-        },
-        "package_0": 3.28582,
-        "dram_0": 0.816221,
-        "core_0": 2.275751,
-        "uncore_0": 0.040954
+            "upload_time": 0.336498
+        }
     },
     {
         "library": "opencv",
+        "package_0": 3.137444,
+        "dram_0": 0.785765,
+        "core_0": 2.214227,
+        "uncore_0": 0.0,
         "measure": {
-            "compute_time": 0.010749,
+            "compute_time": 0.011875,
             "download_size": 529761,
-            "download_time": 0.960793,
+            "download_time": 0.862443,
             "upload_size": 2826,
-            "upload_time": 0.23752
-        },
-        "package_0": 3.222953,
-        "dram_0": 0.772215,
-        "core_0": 2.23205,
-        "uncore_0": 0.022644
+            "upload_time": 0.397147
+        }
     },
     {
         "library": "opencv",
+        "package_0": 3.203361,
+        "dram_0": 0.81323,
+        "core_0": 2.243768,
+        "uncore_0": 0.0,
         "measure": {
-            "compute_time": 0.010946,
+            "compute_time": 0.010928,
             "download_size": 529761,
-            "download_time": 0.899193,
+            "download_time": 0.92968,
             "upload_size": 2826,
-            "upload_time": 0.291685
-        },
-        "package_0": 3.20623,
-        "dram_0": 0.774901,
-        "core_0": 2.247431,
-        "uncore_0": 0.021485
+            "upload_time": 0.393451
+        }
     },
     {
         "library": "opencv",
+        "package_0": 3.069206,
+        "dram_0": 0.765745,
+        "core_0": 2.1737,
+        "uncore_0": 0.0,
         "measure": {
-            "compute_time": 0.010875,
+            "compute_time": 0.010867,
             "download_size": 529761,
-            "download_time": 0.896216,
+            "download_time": 0.914909,
             "upload_size": 2826,
-            "upload_time": 0.31978
-        },
-        "package_0": 3.279471,
-        "dram_0": 0.784056,
-        "core_0": 2.340632,
-        "uncore_0": 0.021423
+            "upload_time": 0.33391
+        }
     },
     {
         "library": "opencv",
+        "package_0": 4.615711,
+        "dram_0": 1.243954,
+        "core_0": 3.21508,
+        "uncore_0": 0.0,
         "measure": {
-            "compute_time": 0.010929,
+            "compute_time": 0.011516,
             "download_size": 529761,
-            "download_time": 0.858688,
+            "download_time": 1.714725,
             "upload_size": 2826,
-            "upload_time": 0.310739
-        },
-        "package_0": 3.216728,
-        "dram_0": 0.762816,
-        "core_0": 2.255548,
-        "uncore_0": 0.020752
+            "upload_time": 0.340135
+        }
     },
     {
         "library": "opencv",
+        "package_0": 2.896965,
+        "dram_0": 0.67993,
+        "core_0": 2.096858,
+        "uncore_0": 0.0,
         "measure": {
-            "compute_time": 0.010855,
+            "compute_time": 0.010847,
             "download_size": 529761,
-            "download_time": 1.072145,
+            "download_time": 0.870139,
             "upload_size": 2826,
-            "upload_time": 0.232515
-        },
-        "package_0": 3.487968,
-        "dram_0": 0.838071,
-        "core_0": 2.429437,
-        "uncore_0": 0.020508
+            "upload_time": 0.216402
+        }
     }
 ]

@@ -114,40 +114,28 @@ def resize(args):
             'download_size': download_size,
             'upload_time': upload_time,
             'upload_size': out_size,
-            'compute_time': process_time
+            'compute_time': process_time,
+            # 'bib': args.get("bib")
     }
 
 
 biblio = {'opencv' : opencv_resize, 'pillow' : pillow_resize, 'wand' : wand_resize, 'pygame' : pygame_resize}
 
 def main(args):
+ 
+ 
+    # Apply Resize Operation 
+    result = resize({
 
-    # Defauft args
-    hight = 60
-    width = 60 
-    file = 'img.jpg'
-    bib = "pillow"
+        "width" : args.get("width", 60),
+        "hight" : args.get("height", 60),
+        "file"  : args.get("file", 'img.jpg'),
+        "bib"   : args.get("bib", "pillow"),
+        "key"   : args.get("key"),
+        "access": args.get("access")
 
-    # Getting the user args if exist
-    if "width" in args:
-        width = args["width"]
-    if "hight" in args:
-        hight = args["hight"]
-    if "file" in args:
-        file = args["file"]
-    if "bib" in args:
-        bib = args["bib"]
-
-    # Apply Resize Operation
-    resultat = resize({
-        "width" : width,
-        "hight" : hight,
-        "file"  : file,
-        "bib"   : bib,
-        "key" : args["key"],
-        "access": args["access"]
     })
 
-    return (resultat)
+    return {"body": result}
     
  
