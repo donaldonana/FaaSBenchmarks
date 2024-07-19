@@ -115,7 +115,7 @@ def resize(args):
             'upload_time': upload_time,
             'upload_size': out_size,
             'compute_time': process_time,
-            # 'bib': args.get("bib")
+            'library' : args["bib"]
     }
 
 

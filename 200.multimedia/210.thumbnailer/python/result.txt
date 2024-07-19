@@ -1,0 +1,1600 @@
+{
+    "body": {
+        "compute_time": 0.009943,
+        "download_size": 529761,
+        "download_time": 1.065995,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.423754
+    }
+}
+{
+    "body": {
+        "compute_time": 0.007887,
+        "download_size": 529761,
+        "download_time": 3.02808,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.358728
+    }
+}
+{
+    "body": {
+        "compute_time": 0.007696,
+        "download_size": 529761,
+        "download_time": 1.026307,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.369522
+    }
+}
+{
+    "body": {
+        "compute_time": 0.007833,
+        "download_size": 529761,
+        "download_time": 1.03621,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.36906
+    }
+}
+{
+    "body": {
+        "compute_time": 0.009218,
+        "download_size": 529761,
+        "download_time": 0.907154,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.282755
+    }
+}
+{
+    "body": {
+        "compute_time": 0.007786,
+        "download_size": 529761,
+        "download_time": 1.047144,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.333918
+    }
+}
+{
+    "body": {
+        "compute_time": 0.007782,
+        "download_size": 529761,
+        "download_time": 0.915241,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.384186
+    }
+}
+{
+    "body": {
+        "compute_time": 0.007802,
+        "download_size": 529761,
+        "download_time": 0.900496,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.393355
+    }
+}
+{
+    "body": {
+        "compute_time": 0.007851,
+        "download_size": 529761,
+        "download_time": 1.018801,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.373152
+    }
+}
+{
+    "body": {
+        "compute_time": 0.00775,
+        "download_size": 529761,
+        "download_time": 1.73502,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.296229
+    }
+}
+{
+    "body": {
+        "compute_time": 0.042595,
+        "download_size": 529761,
+        "download_time": 1.031407,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.33928
+    }
+}
+{
+    "body": {
+        "compute_time": 0.042112,
+        "download_size": 529761,
+        "download_time": 1.021808,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.508612
+    }
+}
+{
+    "body": {
+        "compute_time": 0.041892,
+        "download_size": 529761,
+        "download_time": 1.022971,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.317223
+    }
+}
+{
+    "body": {
+        "compute_time": 0.042157,
+        "download_size": 529761,
+        "download_time": 0.952139,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.37325
+    }
+}
+{
+    "body": {
+        "compute_time": 0.041955,
+        "download_size": 529761,
+        "download_time": 1.039446,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.473535
+    }
+}
+{
+    "body": {
+        "compute_time": 0.041764,
+        "download_size": 529761,
+        "download_time": 0.921491,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.396053
+    }
+}
+{
+    "body": {
+        "compute_time": 0.041749,
+        "download_size": 529761,
+        "download_time": 0.991298,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.368467
+    }
+}
+{
+    "body": {
+        "compute_time": 0.041758,
+        "download_size": 529761,
+        "download_time": 1.11573,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.367426
+    }
+}
+{
+    "body": {
+        "compute_time": 0.041933,
+        "download_size": 529761,
+        "download_time": 1.194221,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.372646
+    }
+}
+{
+    "body": {
+        "compute_time": 0.041804,
+        "download_size": 529761,
+        "download_time": 1.022159,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.343916
+    }
+}
+{
+    "body": {
+        "compute_time": 0.122084,
+        "download_size": 529761,
+        "download_time": 0.992929,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.281401
+    }
+}
+{
+    "body": {
+        "compute_time": 0.133569,
+        "download_size": 529761,
+        "download_time": 1.444927,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.252618
+    }
+}
+{
+    "body": {
+        "compute_time": 0.128227,
+        "download_size": 529761,
+        "download_time": 0.882296,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.291687
+    }
+}
+{
+    "body": {
+        "compute_time": 0.121331,
+        "download_size": 529761,
+        "download_time": 1.300404,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.306282
+    }
+}
+{
+    "body": {
+        "compute_time": 0.140682,
+        "download_size": 529761,
+        "download_time": 1.018704,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.229652
+    }
+}
+{
+    "body": {
+        "compute_time": 0.121374,
+        "download_size": 529761,
+        "download_time": 1.010266,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.219506
+    }
+}
+{
+    "body": {
+        "compute_time": 0.151836,
+        "download_size": 529761,
+        "download_time": 0.970038,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.244628
+    }
+}
+{
+    "body": {
+        "compute_time": 0.124,
+        "download_size": 529761,
+        "download_time": 0.989701,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.298389
+    }
+}
+{
+    "body": {
+        "compute_time": 0.140927,
+        "download_size": 529761,
+        "download_time": 1.162732,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.38222
+    }
+}
+{
+    "body": {
+        "compute_time": 0.135616,
+        "download_size": 529761,
+        "download_time": 1.050219,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.256693
+    }
+}
+{
+    "body": {
+        "compute_time": 0.011198,
+        "download_size": 529761,
+        "download_time": 1.016449,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.265806
+    }
+}
+{
+    "body": {
+        "compute_time": 0.010949,
+        "download_size": 529761,
+        "download_time": 0.995646,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.285532
+    }
+}
+{
+    "body": {
+        "compute_time": 0.012961,
+        "download_size": 529761,
+        "download_time": 0.918509,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.269235
+    }
+}
+{
+    "body": {
+        "compute_time": 0.011051,
+        "download_size": 529761,
+        "download_time": 1.435555,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.272176
+    }
+}
+{
+    "body": {
+        "compute_time": 0.012189,
+        "download_size": 529761,
+        "download_time": 1.162695,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.22547
+    }
+}
+{
+    "body": {
+        "compute_time": 0.011051,
+        "download_size": 529761,
+        "download_time": 1.993738,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.240839
+    }
+}
+{
+    "body": {
+        "compute_time": 0.011101,
+        "download_size": 529761,
+        "download_time": 0.895619,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.292969
+    }
+}
+{
+    "body": {
+        "compute_time": 0.011036,
+        "download_size": 529761,
+        "download_time": 1.056521,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.248393
+    }
+}
+{
+    "body": {
+        "compute_time": 0.011047,
+        "download_size": 529761,
+        "download_time": 1.005909,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.290583
+    }
+}
+{
+    "body": {
+        "compute_time": 0.011056,
+        "download_size": 529761,
+        "download_time": 0.984303,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.299899
+    }
+}
+{
+    "body": {
+        "compute_time": 0.007767,
+        "download_size": 529761,
+        "download_time": 1.256369,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.51554
+    }
+}
+{
+    "body": {
+        "compute_time": 0.008944,
+        "download_size": 529761,
+        "download_time": 0.897027,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.398918
+    }
+}
+{
+    "body": {
+        "compute_time": 0.007827,
+        "download_size": 529761,
+        "download_time": 1.071298,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.322517
+    }
+}
+{
+    "body": {
+        "compute_time": 0.00771,
+        "download_size": 529761,
+        "download_time": 1.028447,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.365343
+    }
+}
+{
+    "body": {
+        "compute_time": 0.007866,
+        "download_size": 529761,
+        "download_time": 1.023291,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.27592
+    }
+}
+{
+    "body": {
+        "compute_time": 0.007716,
+        "download_size": 529761,
+        "download_time": 1.139914,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.349006
+    }
+}
+{
+    "body": {
+        "compute_time": 0.007677,
+        "download_size": 529761,
+        "download_time": 0.929226,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.258272
+    }
+}
+{
+    "body": {
+        "compute_time": 0.007903,
+        "download_size": 529761,
+        "download_time": 1.226301,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.275727
+    }
+}
+{
+    "body": {
+        "compute_time": 0.007911,
+        "download_size": 529761,
+        "download_time": 0.952164,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.237429
+    }
+}
+{
+    "body": {
+        "compute_time": 0.007774,
+        "download_size": 529761,
+        "download_time": 1.120787,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.382483
+    }
+}
+{
+    "body": {
+        "compute_time": 0.528239,
+        "download_size": 529761,
+        "download_time": 0.899598,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.394963
+    }
+}
+{
+    "body": {
+        "compute_time": 0.049901,
+        "download_size": 529761,
+        "download_time": 1.171936,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.443508
+    }
+}
+{
+    "body": {
+        "compute_time": 0.04562,
+        "download_size": 529761,
+        "download_time": 1.146936,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.376463
+    }
+}
+{
+    "body": {
+        "compute_time": 0.0481,
+        "download_size": 529761,
+        "download_time": 1.014168,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.342728
+    }
+}
+{
+    "body": {
+        "compute_time": 0.042406,
+        "download_size": 529761,
+        "download_time": 2.589446,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.350756
+    }
+}
+{
+    "body": {
+        "compute_time": 0.041546,
+        "download_size": 529761,
+        "download_time": 0.986319,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.387295
+    }
+}
+{
+    "body": {
+        "compute_time": 0.045905,
+        "download_size": 529761,
+        "download_time": 1.282856,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.37455
+    }
+}
+{
+    "body": {
+        "compute_time": 0.042672,
+        "download_size": 529761,
+        "download_time": 1.001872,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.398203
+    }
+}
+{
+    "body": {
+        "compute_time": 0.045809,
+        "download_size": 529761,
+        "download_time": 0.970604,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.351426
+    }
+}
+{
+    "body": {
+        "compute_time": 0.045705,
+        "download_size": 529761,
+        "download_time": 1.343607,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.369752
+    }
+}
+{
+    "body": {
+        "compute_time": 0.557854,
+        "download_size": 529761,
+        "download_time": 1.316555,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.338824
+    }
+}
+{
+    "body": {
+        "compute_time": 0.123261,
+        "download_size": 529761,
+        "download_time": 1.127821,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.257058
+    }
+}
+{
+    "body": {
+        "compute_time": 0.136235,
+        "download_size": 529761,
+        "download_time": 1.028124,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.243842
+    }
+}
+{
+    "body": {
+        "compute_time": 0.13745,
+        "download_size": 529761,
+        "download_time": 2.654239,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.294763
+    }
+}
+{
+    "body": {
+        "compute_time": 0.140628,
+        "download_size": 529761,
+        "download_time": 1.436775,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.232111
+    }
+}
+{
+    "body": {
+        "compute_time": 0.127873,
+        "download_size": 529761,
+        "download_time": 1.071866,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.318198
+    }
+}
+{
+    "body": {
+        "compute_time": 0.141369,
+        "download_size": 529761,
+        "download_time": 1.653269,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.259801
+    }
+}
+{
+    "body": {
+        "compute_time": 0.122774,
+        "download_size": 529761,
+        "download_time": 1.190493,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.240939
+    }
+}
+{
+    "body": {
+        "compute_time": 0.141275,
+        "download_size": 529761,
+        "download_time": 0.986616,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.358447
+    }
+}
+{
+    "body": {
+        "compute_time": 0.133068,
+        "download_size": 529761,
+        "download_time": 1.130261,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.321687
+    }
+}
+{
+    "body": {
+        "compute_time": 0.125041,
+        "download_size": 529761,
+        "download_time": 1.162397,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.396085
+    }
+}
+{
+    "body": {
+        "compute_time": 0.010813,
+        "download_size": 529761,
+        "download_time": 1.161703,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.315417
+    }
+}
+{
+    "body": {
+        "compute_time": 0.010818,
+        "download_size": 529761,
+        "download_time": 1.56324,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.238039
+    }
+}
+{
+    "body": {
+        "compute_time": 0.011091,
+        "download_size": 529761,
+        "download_time": 1.164019,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.514083
+    }
+}
+{
+    "body": {
+        "compute_time": 0.010919,
+        "download_size": 529761,
+        "download_time": 1.168101,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.315224
+    }
+}
+{
+    "body": {
+        "compute_time": 0.010912,
+        "download_size": 529761,
+        "download_time": 1.020183,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.299017
+    }
+}
+{
+    "body": {
+        "compute_time": 0.011206,
+        "download_size": 529761,
+        "download_time": 0.972109,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.342399
+    }
+}
+{
+    "body": {
+        "compute_time": 0.011008,
+        "download_size": 529761,
+        "download_time": 1.224908,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.273863
+    }
+}
+{
+    "body": {
+        "compute_time": 0.011013,
+        "download_size": 529761,
+        "download_time": 1.016824,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.251676
+    }
+}
+{
+    "body": {
+        "compute_time": 0.012038,
+        "download_size": 529761,
+        "download_time": 1.091346,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.343758
+    }
+}
+{
+    "body": {
+        "compute_time": 0.007662,
+        "download_size": 529761,
+        "download_time": 1.009769,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.2657
+    }
+}
+{
+    "body": {
+        "compute_time": 0.007779,
+        "download_size": 529761,
+        "download_time": 1.956719,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.342177
+    }
+}
+{
+    "body": {
+        "compute_time": 0.009021,
+        "download_size": 529761,
+        "download_time": 0.890485,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.407328
+    }
+}
+{
+    "body": {
+        "compute_time": 0.009281,
+        "download_size": 529761,
+        "download_time": 0.999351,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.400537
+    }
+}
+{
+    "body": {
+        "compute_time": 0.009256,
+        "download_size": 529761,
+        "download_time": 1.031175,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.265922
+    }
+}
+{
+    "body": {
+        "compute_time": 0.007737,
+        "download_size": 529761,
+        "download_time": 0.880616,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.42115
+    }
+}
+{
+    "body": {
+        "compute_time": 0.007768,
+        "download_size": 529761,
+        "download_time": 1.032092,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.375044
+    }
+}
+{
+    "body": {
+        "compute_time": 0.007759,
+        "download_size": 529761,
+        "download_time": 0.890002,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.315805
+    }
+}
+{
+    "body": {
+        "compute_time": 0.008703,
+        "download_size": 529761,
+        "download_time": 1.018552,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.367764
+    }
+}
+{
+    "body": {
+        "compute_time": 0.00769,
+        "download_size": 529761,
+        "download_time": 1.007312,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.397675
+    }
+}
+{
+    "body": {
+        "compute_time": 0.046986,
+        "download_size": 529761,
+        "download_time": 1.912289,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.391294
+    }
+}
+{
+    "body": {
+        "compute_time": 0.041421,
+        "download_size": 529761,
+        "download_time": 1.057092,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.355222
+    }
+}
+{
+    "body": {
+        "compute_time": 0.046286,
+        "download_size": 529761,
+        "download_time": 1.163305,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.352286
+    }
+}
+{
+    "body": {
+        "compute_time": 0.042941,
+        "download_size": 529761,
+        "download_time": 0.893744,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.375874
+    }
+}
+{
+    "body": {
+        "compute_time": 0.045044,
+        "download_size": 529761,
+        "download_time": 1.215827,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.382697
+    }
+}
+{
+    "body": {
+        "compute_time": 0.041213,
+        "download_size": 529761,
+        "download_time": 1.482753,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.42209
+    }
+}
+{
+    "body": {
+        "compute_time": 0.045642,
+        "download_size": 529761,
+        "download_time": 3.040237,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.418191
+    }
+}
+{
+    "body": {
+        "compute_time": 0.041123,
+        "download_size": 529761,
+        "download_time": 1.166153,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.384887
+    }
+}
+{
+    "body": {
+        "compute_time": 0.046438,
+        "download_size": 529761,
+        "download_time": 1.497732,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.486666
+    }
+}
+{
+    "body": {
+        "compute_time": 0.041196,
+        "download_size": 529761,
+        "download_time": 0.915673,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.313554
+    }
+}
+{
+    "body": {
+        "compute_time": 0.121822,
+        "download_size": 529761,
+        "download_time": 1.255398,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.274831
+    }
+}
+{
+    "body": {
+        "compute_time": 0.121443,
+        "download_size": 529761,
+        "download_time": 0.906425,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.279426
+    }
+}
+{
+    "body": {
+        "compute_time": 0.122248,
+        "download_size": 529761,
+        "download_time": 0.878869,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.317064
+    }
+}
+{
+    "body": {
+        "compute_time": 0.121262,
+        "download_size": 529761,
+        "download_time": 0.87474,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.328196
+    }
+}
+{
+    "body": {
+        "compute_time": 0.137936,
+        "download_size": 529761,
+        "download_time": 1.015012,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.240415
+    }
+}
+{
+    "body": {
+        "compute_time": 0.136751,
+        "download_size": 529761,
+        "download_time": 1.010622,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.262692
+    }
+}
+{
+    "body": {
+        "compute_time": 0.121468,
+        "download_size": 529761,
+        "download_time": 1.052613,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.229387
+    }
+}
+{
+    "body": {
+        "compute_time": 0.123703,
+        "download_size": 529761,
+        "download_time": 0.897249,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.285646
+    }
+}
+{
+    "body": {
+        "compute_time": 0.12194,
+        "download_size": 529761,
+        "download_time": 1.915865,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.416614
+    }
+}
+{
+    "body": {
+        "compute_time": 0.121321,
+        "download_size": 529761,
+        "download_time": 0.891729,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.300959
+    }
+}
+{
+    "body": {
+        "compute_time": 0.010872,
+        "download_size": 529761,
+        "download_time": 1.094866,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.300214
+    }
+}
+{
+    "body": {
+        "compute_time": 0.010886,
+        "download_size": 529761,
+        "download_time": 1.015462,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.277011
+    }
+}
+{
+    "body": {
+        "compute_time": 0.01082,
+        "download_size": 529761,
+        "download_time": 0.980047,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.313714
+    }
+}
+{
+    "body": {
+        "compute_time": 0.011098,
+        "download_size": 529761,
+        "download_time": 1.012965,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.286709
+    }
+}
+{
+    "body": {
+        "compute_time": 0.010815,
+        "download_size": 529761,
+        "download_time": 0.899707,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.291825
+    }
+}
+{
+    "body": {
+        "compute_time": 0.01086,
+        "download_size": 529761,
+        "download_time": 0.966673,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.219991
+    }
+}
+{
+    "body": {
+        "compute_time": 0.010913,
+        "download_size": 529761,
+        "download_time": 0.892389,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.293658
+    }
+}
+{
+    "body": {
+        "compute_time": 0.010889,
+        "download_size": 529761,
+        "download_time": 1.009744,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.293947
+    }
+}
+{
+    "body": {
+        "compute_time": 0.010942,
+        "download_size": 529761,
+        "download_time": 1.057999,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.238145
+    }
+}
+{
+    "body": {
+        "compute_time": 0.010979,
+        "download_size": 529761,
+        "download_time": 1.889804,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.236432
+    }
+}
+{
+    "body": {
+        "compute_time": 0.021122,
+        "download_size": 529761,
+        "download_time": 0.940981,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.259866
+    }
+}
+{
+    "body": {
+        "compute_time": 0.0077,
+        "download_size": 529761,
+        "download_time": 1.133683,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.289285
+    }
+}
+{
+    "body": {
+        "compute_time": 0.020956,
+        "download_size": 529761,
+        "download_time": 1.003664,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.246146
+    }
+}
+{
+    "body": {
+        "compute_time": 0.007712,
+        "download_size": 529761,
+        "download_time": 0.941351,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.351623
+    }
+}
+{
+    "body": {
+        "compute_time": 0.007769,
+        "download_size": 529761,
+        "download_time": 0.93633,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.355387
+    }
+}
+{
+    "body": {
+        "compute_time": 0.007665,
+        "download_size": 529761,
+        "download_time": 1.145372,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.274039
+    }
+}
+{
+    "body": {
+        "compute_time": 0.007728,
+        "download_size": 529761,
+        "download_time": 0.956545,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.458371
+    }
+}
+{
+    "body": {
+        "compute_time": 0.007725,
+        "download_size": 529761,
+        "download_time": 0.974883,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.443278
+    }
+}
+{
+    "body": {
+        "compute_time": 0.007673,
+        "download_size": 529761,
+        "download_time": 0.958215,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.33624
+    }
+}
+{
+    "body": {
+        "compute_time": 0.007834,
+        "download_size": 529761,
+        "download_time": 0.938303,
+        "library": "pillow",
+        "upload_size": 1173,
+        "upload_time": 0.355065
+    }
+}
+{
+    "body": {
+        "compute_time": 0.461094,
+        "download_size": 529761,
+        "download_time": 0.93609,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.369496
+    }
+}
+{
+    "body": {
+        "compute_time": 0.460617,
+        "download_size": 529761,
+        "download_time": 0.851901,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.523517
+    }
+}
+{
+    "body": {
+        "compute_time": 0.045059,
+        "download_size": 529761,
+        "download_time": 1.811597,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.337897
+    }
+}
+{
+    "body": {
+        "compute_time": 0.044633,
+        "download_size": 529761,
+        "download_time": 0.910231,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.37718
+    }
+}
+{
+    "body": {
+        "compute_time": 0.041265,
+        "download_size": 529761,
+        "download_time": 0.895377,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.341824
+    }
+}
+{
+    "body": {
+        "compute_time": 0.041978,
+        "download_size": 529761,
+        "download_time": 0.879829,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.412062
+    }
+}
+{
+    "body": {
+        "compute_time": 0.041553,
+        "download_size": 529761,
+        "download_time": 0.829392,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.43031
+    }
+}
+{
+    "body": {
+        "compute_time": 0.041048,
+        "download_size": 529761,
+        "download_time": 3.205012,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.368275
+    }
+}
+{
+    "body": {
+        "compute_time": 0.041064,
+        "download_size": 529761,
+        "download_time": 0.853916,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.433344
+    }
+}
+{
+    "body": {
+        "compute_time": 0.041035,
+        "download_size": 529761,
+        "download_time": 0.972811,
+        "library": "wand",
+        "upload_size": 27595,
+        "upload_time": 0.388131
+    }
+}
+{
+    "body": {
+        "compute_time": 0.360242,
+        "download_size": 529761,
+        "download_time": 0.841941,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.239358
+    }
+}
+{
+    "body": {
+        "compute_time": 0.365376,
+        "download_size": 529761,
+        "download_time": 0.950878,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.226993
+    }
+}
+{
+    "body": {
+        "compute_time": 0.121182,
+        "download_size": 529761,
+        "download_time": 0.957499,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.341218
+    }
+}
+{
+    "body": {
+        "compute_time": 0.138527,
+        "download_size": 529761,
+        "download_time": 0.952505,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.316526
+    }
+}
+{
+    "body": {
+        "compute_time": 0.121479,
+        "download_size": 529761,
+        "download_time": 0.968505,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.336204
+    }
+}
+{
+    "body": {
+        "compute_time": 0.121412,
+        "download_size": 529761,
+        "download_time": 0.958861,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.346009
+    }
+}
+{
+    "body": {
+        "compute_time": 0.121184,
+        "download_size": 529761,
+        "download_time": 0.948167,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.229097
+    }
+}
+{
+    "body": {
+        "compute_time": 0.121248,
+        "download_size": 529761,
+        "download_time": 0.94565,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.340724
+    }
+}
+{
+    "body": {
+        "compute_time": 0.137153,
+        "download_size": 529761,
+        "download_time": 0.835132,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.346073
+    }
+}
+{
+    "body": {
+        "compute_time": 0.121093,
+        "download_size": 529761,
+        "download_time": 0.813406,
+        "library": "pygame",
+        "upload_size": 2027,
+        "upload_time": 0.350717
+    }
+}
+{
+    "body": {
+        "compute_time": 0.041659,
+        "download_size": 529761,
+        "download_time": 0.984757,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.276115
+    }
+}
+{
+    "body": {
+        "compute_time": 0.04085,
+        "download_size": 529761,
+        "download_time": 1.865837,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.254554
+    }
+}
+{
+    "body": {
+        "compute_time": 0.011028,
+        "download_size": 529761,
+        "download_time": 0.961627,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.220499
+    }
+}
+{
+    "body": {
+        "compute_time": 0.010891,
+        "download_size": 529761,
+        "download_time": 0.954429,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.326312
+    }
+}
+{
+    "body": {
+        "compute_time": 0.010894,
+        "download_size": 529761,
+        "download_time": 0.945721,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.344852
+    }
+}
+{
+    "body": {
+        "compute_time": 0.010914,
+        "download_size": 529761,
+        "download_time": 1.020831,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.289377
+    }
+}
+{
+    "body": {
+        "compute_time": 0.011041,
+        "download_size": 529761,
+        "download_time": 0.983333,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.313392
+    }
+}
+{
+    "body": {
+        "compute_time": 0.010934,
+        "download_size": 529761,
+        "download_time": 3.98412,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.396896
+    }
+}
+{
+    "body": {
+        "compute_time": 0.010989,
+        "download_size": 529761,
+        "download_time": 1.645375,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.367347
+    }
+}
+{
+    "body": {
+        "compute_time": 0.011535,
+        "download_size": 529761,
+        "download_time": 1.385291,
+        "library": "opencv",
+        "upload_size": 2826,
+        "upload_time": 0.280375
+    }
+}

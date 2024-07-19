@@ -15,9 +15,11 @@ domains = [
     RaplUncoreDomain(0),
     RaplCoreDomain(0)
 ]
+
 devices = DeviceFactory.create_devices(domains)
 meter = EnergyMeter(devices)
 
+ 
 
 def append_to_log_file(json_dict, filename='result.json'):
     # Check if the file exists
@@ -32,7 +34,6 @@ def append_to_log_file(json_dict, filename='result.json'):
                 data = []
     else:
         data = []
-
     # Append the new json_dict to the list
     data.append(json_dict)
 
@@ -42,14 +43,12 @@ def append_to_log_file(json_dict, filename='result.json'):
 
 
 def run(url, headers, data):
-
     i = 0
     while i < 10:
 
         meter.start()
         response = requests.post(url, headers=headers, json=data)
         meter.stop()
-
         emeasure = meter.get_trace()[0]
         json_dict = {
             "library" :  data.get("bib"),
@@ -61,15 +60,14 @@ def run(url, headers, data):
         }
         if i >= 2: 
             append_to_log_file(json_dict)
-            
-        i = i + 1
-        
 
+        i = i + 1
 
 
 if __name__ == "__main__":
 
     url = "http://172.17.0.1:3233/api/v1/web/guest/default/thumb.json"
+
     headers = {'Content-Type': 'application/json'}
     
     bibs = ["pillow", "wand", "pygame", "opencv"]
