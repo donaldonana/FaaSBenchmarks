@@ -31,7 +31,7 @@ def append_to_log_file(json_dict, filename='result.json'):
                 if not isinstance(data, list):
                     data = []
             except json.JSONDecodeError:
-                data = []
+                data = [] 
     else:
         data = []
     # Append the new json_dict to the list
