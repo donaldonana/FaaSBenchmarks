@@ -6,6 +6,8 @@ RUN pip install --upgrade pip
 
 RUN pip install numpy
 RUN pip install boto3
+RUN pip install Pillow==9.0.0
+RUN python3 -m pip install opencv-Python
 
 RUN pip install moviepy
 RUN pip install imageio
