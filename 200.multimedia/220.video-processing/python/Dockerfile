@@ -4,3 +4,5 @@ RUN apk add --update py-pip
 RUN pip install numpy
 RUN pip install boto3
 RUN apk add --update ffmpeg
+RUN pip install moviepy
+RUN pip install imageio
