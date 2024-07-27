@@ -11,7 +11,7 @@ from moviepy.editor import VideoFileClip
 
 
 
-def video_to_gif_moviepy(input_video_path, output_gif_path, start_time=None, end_time=None):
+def video_to_gif_moviepy(input_video_path, start_time=None, end_time=None):
     # Load the video
     clip = VideoFileClip(input_video_path)
     
@@ -19,23 +19,29 @@ def video_to_gif_moviepy(input_video_path, output_gif_path, start_time=None, end
     if start_time and end_time:
         clip = clip.subclip()
     
+    output_gif_path = "gif_"+input_video_path
     # Write the GIF file
     clip.write_gif(output_gif_path)
+
+    return output_gif_path
     
 
-def video_to_gif_imageio(input_video_path, output_gif_path):
+def video_to_gif_imageio(input_video_path):
     # Load the video
     reader = imageio.get_reader(input_video_path)
     fps = reader.get_meta_data()['fps']
     
     # Write the GIF file
+    output_gif_path = "gif_"+input_video_path
     writer = imageio.get_writer(output_gif_path, fps=fps)
     for frame in reader:
         writer.append_data(frame)
     writer.close()
+
+    return output_gif_path
     
 
-def video_to_gif_opencv(input_video_path, output_gif_path):
+def video_to_gif_opencv(input_video_path):
     # Open the video file
     cap = cv2.VideoCapture(input_video_path)
     frames = []
@@ -52,11 +58,16 @@ def video_to_gif_opencv(input_video_path, output_gif_path):
     cap.release()
 
     # Save frames as a GIF
+    output_gif_path = "gif_"+input_video_path
     frames[0].save(output_gif_path, save_all=True, append_images=frames[1:], loop=0)
+
+    return output_gif_path
     
 
 
-def video_to_gif_ffmpeg(input_video_path, output_gif_path):
+def video_to_gif_ffmpeg(input_video_path):
+
+    output_gif_path = "gif_"+input_video_path
 
     args = ["-i", input_video_path,
         "-vf",
@@ -73,9 +84,10 @@ def video_to_gif_ffmpeg(input_video_path, output_gif_path):
         print('Invocation of ffmpeg failed!')
         print('Out: ', ret.stdout.decode('utf-8'))
         raise RuntimeError()
+    
+    return output_gif_path
         
     
-
 
 def handler(args):
 
@@ -93,10 +105,10 @@ def handler(args):
     
     # Video to Gif Transformation
     process_begin = datetime.datetime.now()
-    # out = biblio[args["bib"]](args["file"], args["width"], args["hight"])
+    out = biblio[args["bib"]](args["file"], args["width"], args["hight"])
     process_end = datetime.datetime.now()
 
-    # out_size = os.path.getsize(out)
+    out_size = os.path.getsize(out)
     
     # Gif Uploading
     upload_begin = datetime.datetime.now()
@@ -111,20 +123,24 @@ def handler(args):
             'download_time': download_time,
             'download_size': download_size,
             'upload_time': upload_time,
-            # 'upload_size': out_size,
+            'upload_size': out_size,
             'compute_time': process_time,
             'library' : args["bib"],
-            'image' : args["file"]
+            'video' : args["file"]
     }
 
 
+
+biblio = {'moviepy' : video_to_gif_moviepy, 'ffmpeg' : video_to_gif_ffmpeg, 'imageio' : video_to_gif_imageio, 'opencv' : video_to_gif_opencv}
+
+
 def main(args):
-    
+
     # Apply Resize Operation 
     result = handler({
 
         "file"  : args.get("file", '1Mb.avi'),
-        "bib"   : args.get("bib", "pillow"),
+        "bib"   : args.get("bib", "ffmpeg"),
         "key"   : args.get("key"),
         "access": args.get("access")
 

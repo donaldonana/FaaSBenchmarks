@@ -1,8 +1,11 @@
-FROM openwhisk/python3action:latest
+FROM openwhisk/action-python-v3.9
 
-RUN apk add --update py-pip
+RUN apt-get update && apt-get install ffmpeg libsm6 libxext6  -y
+
+RUN pip install --upgrade pip
+
 RUN pip install numpy
 RUN pip install boto3
-RUN apk add --update ffmpeg
+
 RUN pip install moviepy
 RUN pip install imageio
