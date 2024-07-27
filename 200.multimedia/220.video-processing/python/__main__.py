@@ -35,7 +35,6 @@ def video_to_gif_imageio(input_video_path, output_gif_path):
     writer.close()
     
 
-
 def video_to_gif_opencv(input_video_path, output_gif_path):
     # Open the video file
     cap = cv2.VideoCapture(input_video_path)
@@ -78,37 +77,57 @@ def video_to_gif_ffmpeg(input_video_path, output_gif_path):
     
 
 
-def handler(event):
+def handler(args):
 
-    duration = 9
-    bucket_name = 'onanadbucket'
-    file_name = 'write.mp4'
-    aws_access_key_id = os.getenv('AWS_ACCESS_KEY_ID')
-    aws_secret_access_key = os.getenv('AWS_SECRET_ACCESS_KEY')
+     # Connexion to Remote Storage
+    bucket_name = 'donaldbucket'
+    aws_access_key_id = args["key"]
+    aws_secret_access_key = args["access"]
     s3 = boto3.client('s3', aws_access_key_id=aws_access_key_id, aws_secret_access_key=aws_secret_access_key)
     
+    # Image Downloading
     download_begin = datetime.datetime.now()
-    s3.download_file(bucket_name, file_name, "write.mp4")
-    download_size = os.path.getsize("write.mp4")
-    download_stop = datetime.datetime.now()
+    s3.download_file(bucket_name, args["file"], args["file"])
+    download_size = os.path.getsize(args["file"])
+    download_end = datetime.datetime.now()
     
+    # Video to Gif Transformation
     process_begin = datetime.datetime.now()
-    upload_path = video_to_gif_ffmpeg("write.mp4", duration, event)
+    # out = biblio[args["bib"]](args["file"], args["width"], args["hight"])
     process_end = datetime.datetime.now()
+
+    # out_size = os.path.getsize(out)
     
+    # Gif Uploading
     upload_begin = datetime.datetime.now()
-    upload_size = os.path.getsize(upload_path)
-    s3.upload_file('write.gif', bucket_name, 'write.gif')
-    upload_stop = datetime.datetime.now()
+    # s3.upload_file(out, bucket_name, out)
+    upload_end = datetime.datetime.now()
     
-    download_time = (download_stop - download_begin) / datetime.timedelta(microseconds=1)
-    process_time = (process_end - process_begin) / datetime.timedelta(microseconds=1)
-    upload_time = (upload_stop - upload_begin) / datetime.timedelta(microseconds=1)
+    download_time = (download_end - download_begin) / datetime.timedelta(seconds=1)
+    upload_time = (upload_end - upload_begin) / datetime.timedelta(seconds=1)
+    process_time = (process_end - process_begin) / datetime.timedelta(seconds=1)
     
-    return { 'result': {'bucket': bucket_name, 'file name': "write.gif"} , 
-    	     'measurement': {'download time': download_time, 'size' : download_size, 'upload size': upload_size, 'compute time': process_time, 'upload_time': upload_time} }
+    return {      
+            'download_time': download_time,
+            'download_size': download_size,
+            'upload_time': upload_time,
+            # 'upload_size': out_size,
+            'compute_time': process_time,
+            'library' : args["bib"],
+            'image' : args["file"]
+    }
 
 
-def main(params):
-    resultat = handler({})
-    return  resultat
+def main(args):
+    
+    # Apply Resize Operation 
+    result = handler({
+
+        "file"  : args.get("file", '1Mb.avi'),
+        "bib"   : args.get("bib", "pillow"),
+        "key"   : args.get("key"),
+        "access": args.get("access")
+
+    })
+
+    return {"body": result}

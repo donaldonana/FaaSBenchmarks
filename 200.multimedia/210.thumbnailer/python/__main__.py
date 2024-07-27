@@ -97,6 +97,7 @@ def resize(args):
     process_begin = datetime.datetime.now()
     out = biblio[args["bib"]](args["file"], args["width"], args["hight"])
     process_end = datetime.datetime.now()
+    
     out_size = os.path.getsize(out)
     
     # Image Uploading
