@@ -66,6 +66,8 @@ def parse_json_objects(log_content):
 
     return json_objects
 
+
+
 # Read the contents of the log file
 with open('result.txt', 'r') as file:
     log_content = file.read()
@@ -100,3 +102,6 @@ with open('result.csv', 'w', newline='') as csvfile:
             print(f"Missing key in data: {e}")
 
 print("CSV file has been created successfully.")
+
+
+energy()

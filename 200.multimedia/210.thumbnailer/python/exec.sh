@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # The list of library
-LIBRARY=("wand" "pygame" "opencv")
-IMAGE="15Mb.JPEG"
+LIBRARY=("pillow" "wand" "pygame" "opencv")
+IMAGE="256Kb.JPEG"
 RESULT_FILE="result.txt"
 ENERGY_DIR="Energy"
 mkdir -p "$ENERGY_DIR/$IMAGE"

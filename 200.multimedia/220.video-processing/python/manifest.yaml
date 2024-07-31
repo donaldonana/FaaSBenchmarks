@@ -1,6 +1,0 @@
-packages:
-    default:
-        actions:
-            fonction:
-                function: __main__.py
-

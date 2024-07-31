@@ -1,0 +1,88 @@
+{
+    "body": {
+        "compute_time": 1.48805,
+        "download_size": 1000002,
+        "download_time": 0.984832,
+        "library": "moviepy",
+        "upload_size": 7932321,
+        "upload_time": 3.162245,
+        "video": "1Mb.avi"
+    }
+}
+{
+    "body": {
+        "compute_time": 1.452547,
+        "download_size": 1000002,
+        "download_time": 1.002498,
+        "library": "moviepy",
+        "upload_size": 7932321,
+        "upload_time": 1.559465,
+        "video": "1Mb.avi"
+    }
+}
+{
+    "body": {
+        "compute_time": 2.368049,
+        "download_size": 1000002,
+        "download_time": 1.677873,
+        "library": "ffmpeg",
+        "upload_size": 4793381,
+        "upload_time": 2.004198,
+        "video": "1Mb.avi"
+    }
+}
+{
+    "body": {
+        "compute_time": 2.260396,
+        "download_size": 1000002,
+        "download_time": 1.012756,
+        "library": "ffmpeg",
+        "upload_size": 4793381,
+        "upload_time": 1.27877,
+        "video": "1Mb.avi"
+    }
+}
+{
+    "body": {
+        "compute_time": 1.50902,
+        "download_size": 1000002,
+        "download_time": 0.972197,
+        "library": "imageio",
+        "upload_size": 7929714,
+        "upload_time": 1.80993,
+        "video": "1Mb.avi"
+    }
+}
+{
+    "body": {
+        "compute_time": 1.412267,
+        "download_size": 1000002,
+        "download_time": 1.062363,
+        "library": "imageio",
+        "upload_size": 7929714,
+        "upload_time": 2.96194,
+        "video": "1Mb.avi"
+    }
+}
+{
+    "body": {
+        "compute_time": 1.353179,
+        "download_size": 1000002,
+        "download_time": 0.974048,
+        "library": "opencv",
+        "upload_size": 7932321,
+        "upload_time": 2.20446,
+        "video": "1Mb.avi"
+    }
+}
+{
+    "body": {
+        "compute_time": 1.360286,
+        "download_size": 1000002,
+        "download_time": 1.834811,
+        "library": "opencv",
+        "upload_size": 7932321,
+        "upload_time": 1.719338,
+        "video": "1Mb.avi"
+    }
+}
