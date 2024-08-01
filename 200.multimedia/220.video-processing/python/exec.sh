@@ -2,7 +2,7 @@
 
 # The list of library
 LIBRARY=("moviepy" "ffmpeg" "imageio" "opencv")
-VIDEO="1Mb.avi"
+VIDEO="6Mb.avi"
 RESULT_FILE="result.txt"
 ENERGY_DIR="Energy"
 mkdir -p "$ENERGY_DIR/$VIDEO"

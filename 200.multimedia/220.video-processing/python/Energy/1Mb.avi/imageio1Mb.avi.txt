@@ -1,0 +1,14 @@
+
+cpu_count=1
+duration_seconds=18.320575
+cpu0_package_joules=44.165527
+cpu0_core_joules=30.319153
+cpu0_uncore_joules=0.186279
+cpu0_dram_joules=10.738831
+
+cpu_count=1
+duration_seconds=29.893485
+cpu0_package_joules=60.938965
+cpu0_core_joules=39.559387
+cpu0_uncore_joules=0.241211
+cpu0_dram_joules=17.153137

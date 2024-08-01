@@ -11,3 +11,5 @@ RUN python3 -m pip install opencv-Python
 
 RUN pip install moviepy
 RUN pip install imageio
+
+RUN pip install ffmpeg-python

@@ -9,12 +9,14 @@ def opencv_resize(path, w, h):
 
     import cv2
 
+    # Load the image
     img = cv2.imread(path)
 
     # resize image by specifying custom width and height
     resized = cv2.resize(img, (w, h))
 
     resize_image = "resize_"+path
+    # Save the reduced image
 
     cv2.imwrite(resize_image, resized)
 
@@ -42,6 +44,7 @@ def pygame_resize(path, w, h):
     pygame.quit()
 
     return resize_image
+
 
 def wand_resize(path, w, h):
 

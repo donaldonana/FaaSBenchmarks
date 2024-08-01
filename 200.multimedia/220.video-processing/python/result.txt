@@ -1,88 +1,88 @@
 {
     "body": {
-        "compute_time": 1.48805,
+        "compute_time": 1.442079,
         "download_size": 1000002,
-        "download_time": 0.984832,
+        "download_time": 1.792197,
         "library": "moviepy",
         "upload_size": 7932321,
-        "upload_time": 3.162245,
+        "upload_time": 18.276424,
         "video": "1Mb.avi"
     }
 }
 {
     "body": {
-        "compute_time": 1.452547,
+        "compute_time": 1.452303,
         "download_size": 1000002,
-        "download_time": 1.002498,
+        "download_time": 1.896945,
         "library": "moviepy",
         "upload_size": 7932321,
-        "upload_time": 1.559465,
+        "upload_time": 16.363287,
         "video": "1Mb.avi"
     }
 }
 {
     "body": {
-        "compute_time": 2.368049,
+        "compute_time": 2.219113,
         "download_size": 1000002,
-        "download_time": 1.677873,
+        "download_time": 2.485619,
         "library": "ffmpeg",
         "upload_size": 4793381,
-        "upload_time": 2.004198,
+        "upload_time": 10.177093,
         "video": "1Mb.avi"
     }
 }
 {
     "body": {
-        "compute_time": 2.260396,
+        "compute_time": 2.201534,
         "download_size": 1000002,
-        "download_time": 1.012756,
+        "download_time": 2.999783,
         "library": "ffmpeg",
         "upload_size": 4793381,
-        "upload_time": 1.27877,
+        "upload_time": 10.374186,
         "video": "1Mb.avi"
     }
 }
 {
     "body": {
-        "compute_time": 1.50902,
+        "compute_time": 1.430403,
         "download_size": 1000002,
-        "download_time": 0.972197,
+        "download_time": 2.450548,
         "library": "imageio",
         "upload_size": 7929714,
-        "upload_time": 1.80993,
+        "upload_time": 14.337775,
         "video": "1Mb.avi"
     }
 }
 {
     "body": {
-        "compute_time": 1.412267,
+        "compute_time": 1.407844,
         "download_size": 1000002,
-        "download_time": 1.062363,
+        "download_time": 1.635975,
         "library": "imageio",
         "upload_size": 7929714,
-        "upload_time": 2.96194,
+        "upload_time": 26.766554,
         "video": "1Mb.avi"
     }
 }
 {
     "body": {
-        "compute_time": 1.353179,
+        "compute_time": 1.362461,
         "download_size": 1000002,
-        "download_time": 0.974048,
+        "download_time": 2.125166,
         "library": "opencv",
         "upload_size": 7932321,
-        "upload_time": 2.20446,
+        "upload_time": 9.614843,
         "video": "1Mb.avi"
     }
 }
 {
     "body": {
-        "compute_time": 1.360286,
+        "compute_time": 1.37862,
         "download_size": 1000002,
-        "download_time": 1.834811,
+        "download_time": 1.82462,
         "library": "opencv",
         "upload_size": 7932321,
-        "upload_time": 1.719338,
+        "upload_time": 11.456189,
         "video": "1Mb.avi"
     }
 }

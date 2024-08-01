@@ -8,8 +8,8 @@ from PIL import Image
 from moviepy.editor import VideoFileClip
 
 
-
 def video_to_gif_moviepy(input_video_path):
+    
     # Load the video
     clip = VideoFileClip(input_video_path)
     
@@ -21,13 +21,15 @@ def video_to_gif_moviepy(input_video_path):
     
 
 def video_to_gif_imageio(input_video_path):
+
     # Load the video
     reader = imageio.get_reader(input_video_path)
-    fps = reader.get_meta_data()['fps']
     
     # Write the GIF file
     output_gif_path = "output.gif"
-    writer = imageio.get_writer(output_gif_path, fps=fps)
+
+    writer = imageio.get_writer(output_gif_path)
+
     for frame in reader:
         writer.append_data(frame)
     writer.close()
@@ -36,6 +38,7 @@ def video_to_gif_imageio(input_video_path):
     
 
 def video_to_gif_opencv(input_video_path):
+
     # Open the video file
     cap = cv2.VideoCapture(input_video_path)
     frames = []
@@ -62,20 +65,16 @@ def video_to_gif_ffmpeg(input_video_path):
 
     output_gif_path = "output.gif"
 
-    args = ["-i", input_video_path,
-        "-vf",
-        "fps=10,scale=320:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse",
-        "-loop", "0",
-        output_gif_path]
+    args = ["-i", input_video_path, output_gif_path]
         
     ret = subprocess.run(["ffmpeg", '-y'] + args,
-            #subprocess might inherit Lambda's input for some reason
             stdin=subprocess.DEVNULL,
             stdout=subprocess.PIPE, stderr=subprocess.STDOUT
     )
      
     return output_gif_path
         
+
     
 def handler(args):
 
@@ -85,7 +84,7 @@ def handler(args):
     aws_secret_access_key = args["access"]
     s3 = boto3.client('s3', aws_access_key_id=aws_access_key_id, aws_secret_access_key=aws_secret_access_key)
     
-    # Image Downloading
+    # Video Downloading
     download_begin = datetime.datetime.now()
     s3.download_file(bucket_name, args["file"], args["file"])
     download_size = os.path.getsize(args["file"])
