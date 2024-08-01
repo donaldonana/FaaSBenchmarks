@@ -2,7 +2,7 @@
 
 # The list of library
 LIBRARY=("moviepy" "ffmpeg" "imageio" "opencv")
-VIDEO="6Mb.avi"
+VIDEO="540Kb.avi"
 RESULT_FILE="result.txt"
 ENERGY_DIR="Energy"
 mkdir -p "$ENERGY_DIR/$VIDEO"
@@ -13,7 +13,7 @@ for LIB in "${LIBRARY[@]}"; do
     echo -e "$LIB"  
     ENERGY_FILE="$ENERGY_DIR/$VIDEO/$LIB$VIDEO.txt"  
     
-    for (( i = 1; i <= 2; i++ )); do
+    for (( i = 1; i <= 100; i++ )); do
     	 
     	# Launch cpu-energy-meter in background and save her PID
 	cpu-energy-meter -r >> $ENERGY_FILE &
