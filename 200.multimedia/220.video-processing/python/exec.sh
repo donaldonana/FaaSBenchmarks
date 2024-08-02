@@ -2,7 +2,7 @@
 
 # The list of library
 LIBRARY=("moviepy" "ffmpeg" "imageio" "opencv")
-VIDEO="540Kb.avi"
+VIDEO="6Mb.avi"
 RESULT_FILE="result.txt"
 ENERGY_DIR="Energy"
 mkdir -p "$ENERGY_DIR/$VIDEO"
@@ -21,6 +21,7 @@ for LIB in "${LIBRARY[@]}"; do
 	wsk action invoke proc  --result  --param bib "$LIB" --param key $AWS_ACCESS_KEY_ID  --param access $AWS_SECRET_ACCESS_KEY --param file "$VIDEO" >> $RESULT_FILE
 	kill -SIGINT $METER_PID
 	
+	echo -e "$i"
     done
     
 done
