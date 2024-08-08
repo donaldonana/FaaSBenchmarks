@@ -1,8 +1,6 @@
 import datetime
 import os
-import sys
 import boto3
-import psutil
  
 
 def opencv_resize(path, w, h):

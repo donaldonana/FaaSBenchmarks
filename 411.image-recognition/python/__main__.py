@@ -28,9 +28,6 @@ def handler(event):
     
     global model
     if not model:
-        model_download_begin = datetime.datetime.now()
-        #s3.download_file(bucket_name, 'resnet50.pth', 'resnet50.pth')
-        model_download_end = datetime.datetime.now()
         
         model_process_begin = datetime.datetime.now()
         model = resnet50(pretrained=False)
