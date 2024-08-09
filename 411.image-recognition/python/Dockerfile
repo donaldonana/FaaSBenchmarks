@@ -8,4 +8,6 @@ RUN pip install torchvision==0.12.0
 RUN pip install boto3
 
 COPY ./resnet50.pth /app
+COPY ./resnet18.pth /app
+
 COPY ./imagenet_class_index.json /app
