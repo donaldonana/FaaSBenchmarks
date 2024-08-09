@@ -8,7 +8,6 @@ import datetime, json, os
 
 model = None
 
-
 def recognition(event):
 
     bucket_name = 'donaldbucket'

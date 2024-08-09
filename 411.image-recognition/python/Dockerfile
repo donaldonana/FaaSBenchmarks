@@ -9,5 +9,8 @@ RUN pip install boto3
 
 COPY ./resnet50.pth /app
 COPY ./resnet18.pth /app
+COPY ./resnet152.pth /app
+COPY ./resnet34.pth /app
+
 
 COPY ./imagenet_class_index.json /app
